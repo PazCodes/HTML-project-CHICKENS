@@ -1,0 +1,195 @@
+<!DOCTYPE>
+<html>
+<link rel="stylesheet" href="./style.css">
+<head>
+    <title>Chickens</title>
+</head>
+
+<body>
+    <main>
+        <!-- nav.upnav>ul>li*3>a[href="#"].intro{Intro} -->
+        <nav class="upnav">
+            <ul>
+                <li><a href="#" class="intro">Intro</a></li>
+                <li><a href="#" class="Main">Main</a></li>
+                <li><a href="#" class="register">Register</a></li>
+            </ul>
+        </nav>
+        
+    </h1>
+    
+    <!-- TABLES -->
+    <div class="tables"> 
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Animal</th>
+                    <th colspan="2">Average Mass</th>
+                    <th rowspan="2">Flighted</th>
+                </tr>
+                <tr>
+                    <th>KG</th>
+                    <th>LB</th>
+                </tr>
+            </thead>
+            <thead>
+                <tbody>
+                    <tr>
+                    <td>Ostrich</td>
+                    <td>140</td>
+                    <td>230</td>
+                    <td>No</td>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>Somalid Ostrich</td>
+                    <td>90 </td>
+                    <td>200</td>
+                    <td>No</td>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>Turkey</td>
+                    <td>13.5</td>
+                    <td>29.8</td>
+                    <td>Yes</td>
+                </tr>
+            </thead>
+        </tbody>
+    </table>
+</div>
+<h2>Intro</h2>
+<p>Pangolins, sometimes known as scaly anteaters, are mammals of the order Pholidota (from Ancient Greek φολῐ́ς,
+    "horny scale"). The one extant family, Manidae, has three genera: Manis, <a href="https://en.wikipedia.org/wiki/Phataginus">Phataginus</a> and Smutsia. Manis comprises
+    the four species found in Asia, while Phataginus and Smutsia include two species each, all found in Sub-Saharan
+    Africa. These species range in size from 30 to 100 cm (12 to 39 in). A number of extinct pangolin species are
+    also known.
+</p>
+
+<section>
+    <h2>Description</h2>
+    
+    <p>Pangolins have large, protective keratin scales covering their skin; they are the only known mammals with this
+        feature. They live in hollow trees or burrows, depending on the species. Pangolins are nocturnal, and their diet
+        consists of mainly ants and termites, which they capture using their long tongues. They tend to be solitary
+        animals, meeting only to mate and produce a litter of one to three offspring, which they raise for about two
+        years.
+    </p>
+</section>
+<h2>Poaching</h2>
+<p>Pangolins are threatened by poaching (for their meat and scales, which are used in Chinese traditional medicine)
+    and heavy deforestation of their natural habitats, and are the most trafficked mammals in the world.As of
+    January 2020, of the eight species of pangolin, three (Manis culionensis, M. pentadactyla and M. javanica) are
+    listed as critically endangered, three (Phataginus tricuspis, Manis crassicaudata and Smutsia gigantea) are
+    listed as endangered and two (Phataginus tetradactyla and Smutsia temminckii) are listed as vulnerable on the
+    Red List of Threatened Species of the International Union for Conservation of Nature. </p>
+    
+    <div>
+        <h3>About Chickens</h3>
+        
+        <li>
+            <a href="https://en.wikipedia.org/wiki/Chicken">Anatomy of Chicken</a>
+        </li>
+        
+        <ul>
+            <li>Hen</li>
+                <figure>
+                    <img id="chickens" class="hen" src="./images/Hen.jpg" alt="A simple Hen">
+                    <figcaption>A cute Hen</figcaption>
+                </figure>
+                <li>Rooster</li>
+                <figure>
+                    <img id="chickens" class="rooster" src="./images/Rooster.jpg" alt="Nice Rooster">
+                    <figcaption>A brave Rooster</figcaption>
+                </figure>
+            </ul>
+            <li>Chicken language</li>
+            <li>Pet a Chicken</li>
+        </ul>
+    </div>  
+</main>  
+<article>
+    <footer>
+        <!-- SEARCH BAR TO GOOGLE -->
+        <h2>For curious people</h2>
+        <h3>Google Research</h3>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <button>Search on google</button>
+        </form>
+        <!-- SEARCH BAR TO YOUTUBE -->
+        <h3>Youtube Research</h3>
+        <form action="https://www.youtube.com/results?search_query">
+            <input type="text" name="search_query">
+            <button>Search on Youtube</button>
+        </form>
+        <!-- INPUT TYPE WITH LABEL FOR CHECKBOX -->
+        <h2><p>Register and set Notifications up</p></h2>
+        <div class="Checkboxes">
+            <form action="/register">
+            <input type="checkbox" name="login" id="register">
+            <label for="register"><b>I want to be part of you!</b></label>
+            </form>
+            <form action="/Comment">
+            <input type="checkbox" name="write" id="comment">
+            <label for="comment"><b>I want to make a suggestion</b></label>
+            </form>
+            <button>Let's do it!</button>
+        </div>
+        <!-- INPUT TYPE WITH LABEL FOR RADIO-->
+        <form action="/notifications">
+            <!-- SELECT BAR -->
+            <p>
+                <label for="chicken">Please select preferred Chicken Type</label>
+                <select name="chicken" id="chicken">
+                    <option value="">Please select it</option>
+                    <option value="rooster">Rooster</option>
+                    <option value="hen">Hen</option>
+                    <option value="chick">Chick</option>
+                </select>
+            </p>
+            <label for="email">Send me emails</label>
+            <input type="radio" name="Notify" id="email" value="email">
+            <label for="SMS">Send me Text Messages</label>
+            <input type="radio" name="Notify" id="SMS" value="SMS">
+            <label for="contactless">Do not contact me</label>
+            <input type="radio" name="Notify" id="contactless" value="contactless">
+        </form>
+        <button>Submit</button>
+        <a href="#"><h2>Comments to Pazific<sup>&#169;</sup></h2></a>
+        <label for="satisfaction"><b>Show us your satisfaction with our content!</b></label>
+        <input type="range" id="satisfaction" min="0" max="10" value="7" name="satisfaction_level">
+        <button>Choose</button>
+        <div class="Comments">
+            <label for="Comments"><b>Enter your comments here!</b></label>
+            <textarea name="suggestion" id="Comments" cols="50" rows="10" placeholder="Don't be shy... Any suggestion might be appreciated!"></textarea>
+            <button>Submit</button>
+            <p>I'll become a <b>GREAT</b> programmer in <time datetime="2023-05-17">2023</time></p>
+        </div>
+        <!-- BASIC FORMS -->
+        <div>
+            <h2>Register</h2>
+            <form action="/login">
+                <label for="username">Enter your Username:</label>
+                <input id="username" type="text" placeholder="username" name="username">
+                <label for="password">Enter a password:</label>
+                <input id="password" type="password" placeholder="Password" name="password">
+                <label for="color">Enter a color:</label>
+                <input id="color" type="color" name="color">
+                <label for="date">Select a date:</label>
+                <input id="date" type="date" name="date">
+                <label for="time">Select a time:</label>
+                <input id="time" type="time" name="time">
+                <label for="file">Drag files</label>
+                <input id="file" type="file" name="file">
+                <label for="number">Enter a number</label>
+                <input id="number" type="number" placeholder="Enter a number" min="1" max="100" name="number">
+                <button>Submit</button>
+                <input type="submit" value="Better one">
+            </div>
+        </footer>
+    </article>
+</body>
+</html>
